@@ -56,4 +56,15 @@ return [
     */
 
     'middleware_group' => env('WINK_MIDDLEWARE_GROUP', 'web'),
+
+     /*
+    |--------------------------------------------------------------------------
+    | Wink Base Page Title
+    |--------------------------------------------------------------------------
+    | @author Samuel Ndubuisi <samniwebdev@gmail.com>
+    |
+    | This will set the layout base page title
+    |
+    */
+    'base_page_title' => env('WINK_BASE_PAGE_TITLE', 'Lead Press'),
 ];
