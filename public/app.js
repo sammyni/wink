@@ -3320,7 +3320,7 @@ __webpack_require__.r(__webpack_exports__);
    * Prepare the component.
    */
   mounted: function mounted() {
-    document.title = "Pages — Wink.";
+    document.title = "Pages — Lead Press";
     this.loadEntries();
   }
 });
@@ -3787,7 +3787,7 @@ __webpack_require__.r(__webpack_exports__);
    * Prepare the component.
    */
   mounted: function mounted() {
-    document.title = "Posts — Wink.";
+    document.title = "Posts — Lead Press";
     this.loadEntries();
     this.loadResources();
     this.watchFiltersChanges();
@@ -4014,7 +4014,7 @@ __webpack_require__.r(__webpack_exports__);
    * Prepare the component.
    */
   mounted: function mounted() {
-    document.title = "Tags — Wink.";
+    document.title = "Tags — Lead Press";
     this.loadEntries();
   }
 });
@@ -4274,7 +4274,7 @@ __webpack_require__.r(__webpack_exports__);
    * Prepare the component.
    */
   mounted: function mounted() {
-    document.title = "Team — Wink.";
+    document.title = "Team — Lead Press";
     this.loadEntries();
   }
 });
