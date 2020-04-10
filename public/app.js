@@ -4077,7 +4077,7 @@ __webpack_require__.r(__webpack_exports__);
    * Prepare the component.
    */
   mounted: function mounted() {
-    document.title = "Author — Wink.";
+    document.title = "Author — Lead Press.";
     this.loadEntry();
   },
   watch: {
