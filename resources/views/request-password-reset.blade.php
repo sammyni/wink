@@ -22,7 +22,7 @@
 
         <div class="flex items-center mb-10">
             <h2 class="mr-2 font-semibold font-serif" :class="{'hidden': hideLogoOnSmallScreens, 'sm:block': hideLogoOnSmallScreens}">
-                <span class="text-light">W</span>ink.
+                <span class="text-light">Lead</span> Press.
             </h2>
 
             <h2 class="font-normal">— Reset Password</h2>
@@ -57,8 +57,15 @@
                        name="email" id="email"
                        placeholder="mail@example.com">
             </div>
+            <div class="flex items-center mb-10">
+                <div class="flex items-center mr-auto">
+                    <button type="submit" class="btn-primary">Reset Password</button>
+                </div>
 
-            <button type="submit" class="btn-primary">Reset Password</button>
+                <a href="{{route('wink.auth.login')}}" class="no-underline text-primary">Login</a>
+            </div>
+
+
         </form>
 
     </div>
