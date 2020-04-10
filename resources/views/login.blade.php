@@ -14,7 +14,7 @@
     <link href='{{mix('light.css', 'vendor/wink')}}' rel='stylesheet' type='text/css'>
 
     <!-- Icon-->
-    <link rel="icon" type="image/png" href="/vendor/wink/favicon.png"/>
+    <link rel="icon" type="image/png" href="/vendor/wink/favicon.ico"/>
 </head>
 <body class="text-text-color mb-20">
 <div class="container mt-20">
