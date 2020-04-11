@@ -3139,7 +3139,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this3 = this;
 
-    document.title = "Edit Page — Wink.";
+    document.title = "Edit Page — Lead Press.";
     this.http().get('/api/pages/' + this.id).then(function (response) {
       _this3.entry = _.cloneDeep(response.data.entry);
 
@@ -3493,7 +3493,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this2 = this;
 
-    document.title = "Edit Post — Wink.";
+    document.title = "Edit Post — Lead Press.";
     this.loadResources();
     this.http().get('/api/posts/' + this.id).then(function (response) {
       _this2.entry = _.cloneDeep(response.data.entry);
@@ -3878,7 +3878,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    document.title = "Tag — Wink.";
+    document.title = "Tag — Lead Press.";
     this.http().get('/api/tags/' + this.id).then(function (response) {
       _this.entry = response.data.entry;
       _this.form.id = response.data.entry.id;

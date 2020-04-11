@@ -41,7 +41,7 @@
          * Prepare the component.
          */
         mounted() {
-            document.title = "Tag — Wink.";
+            document.title = "Tag — Lead Press.";
 
             this.http().get('/api/tags/' + this.id).then(response => {
                 this.entry = response.data.entry;

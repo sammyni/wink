@@ -90,7 +90,7 @@
          * Prepare the component.
          */
         mounted() {
-            document.title = "Edit Post — Wink.";
+            document.title = "Edit Post — Lead Press.";
 
             this.loadResources();
 
